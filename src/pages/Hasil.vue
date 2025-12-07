@@ -14,6 +14,12 @@
       <p class="text-gray-700 italic mb-6 md:mb-8 text-sm md:text-base">{{ feedbackMessage }}</p>
 
       <button
+        @click="viewLeaderboard"
+        class="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 md:py-4 rounded mb-3 transition-all duration-200"
+      >
+        Tampilkan Leaderboard
+      </button>
+      <button
         @click="restartQuiz"
         class="w-full bg-green-500 hover:bg-green-700 text-white font-semibold py-3 md:py-4 rounded mb-3 transition-all duration-200"
       >
@@ -52,6 +58,9 @@ export default {
     },
   },
   methods: {
+    viewLeaderboard() {
+      this.$router.push({ name: 'Leaderboard' })
+    },
     restartQuiz() {
       this.$router.push({ name: 'Kuis' })
     },

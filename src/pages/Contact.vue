@@ -48,8 +48,8 @@
                 </div>
                 <div>
                   <h4 class="text-sm md:text-base font-semibold text-gray-800 mb-1">Instagram</h4>
-                  <a href="https://instagram.com/amishanabila" target="_blank" class="text-xs md:text-sm text-gray-600 hover:text-pink-600 hover:underline">
-                    @amishanabila
+                  <a href="https://instagram.com/amishanbl" target="_blank" class="text-xs md:text-sm text-gray-600 hover:text-pink-600 hover:underline">
+                    @amishanbl
                   </a>
                 </div>
               </div>

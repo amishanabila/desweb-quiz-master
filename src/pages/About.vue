@@ -3,7 +3,7 @@
     <Header />
 
     <main
-      class="flex flex-col md:flex-row justify-center items-center mb-1 mt-[-3px] min-h-[82vh] py-8 px-4 md:px-12 bg-gray-50 text-center md:text-left"
+      class="flex flex-col md:flex-row justify-center items-start mb-1 mt-[-3px] min-h-[82vh] pt-4 pb-8 px-4 md:px-12 bg-gray-50 text-center md:text-left"
     >
 <div class="w-full md:w-1/2 mb-10 md:mb-0">
   <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About</h1>
